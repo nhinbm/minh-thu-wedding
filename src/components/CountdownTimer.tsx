@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
 interface TimeCount {
@@ -34,6 +35,7 @@ const getTimeLeft = (expiry: string): TimeCount => {
 
 const CountdownTimer = ({ launchDate }: { launchDate: string }) => {
   const [timeLeft, setTimeLeft] = useState<TimeCount>(getTimeLeft(launchDate));
+  const t = useTranslations("TimeLocation");
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -47,19 +49,19 @@ const CountdownTimer = ({ launchDate }: { launchDate: string }) => {
     <div className="flex justify-start my-10 gap-3">
       <span className="flex flex-col justify-center items-center bg-beige text-xl lg:text-3xl w-12 lg:w-20 p-1 lg:p-3 shadow-lg rounded-md text-white">
         {timeLeft.days}
-        <small className="text-sm font-semibold">Ngày</small>
+        <small className="text-sm font-semibold">{t("days")}</small>
       </span>
       <span className="flex flex-col justify-center items-center bg-beige text-xl lg:text-3xl w-12 lg:w-20 p-1 lg:p-3 shadow-lg rounded-md text-white">
         {timeLeft.hours}
-        <small className="text-sm font-semibold">Giờ</small>
+        <small className="text-sm font-semibold">{t("hours")}</small>
       </span>
       <span className="flex flex-col justify-center items-center bg-beige text-xl lg:text-3xl w-12 lg:w-20 p-1 lg:p-3 shadow-lg rounded-md text-white">
         {timeLeft.minutes}
-        <small className="text-sm font-semibold">Phút</small>
+        <small className="text-sm font-semibold">{t("minutes")}</small>
       </span>
       <span className="flex flex-col justify-center items-center bg-beige text-xl lg:text-3xl w-12 lg:w-20 p-1 lg:p-3 shadow-lg rounded-md text-white">
         {timeLeft.seconds}
-        <small className="text-sm font-semibold">Giây</small>
+        <small className="text-sm font-semibold">{t("seconds")}</small>
       </span>
     </div>
   );

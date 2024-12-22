@@ -4,6 +4,7 @@
 
 import { motion } from "framer-motion";
 import { carattere, prata } from "@/styles/fonts";
+import { useTranslations } from "next-intl";
 
 const Introduction = () => {
   const containerVariants = {
@@ -15,8 +16,13 @@ const Introduction = () => {
     },
   };
 
+  const t = useTranslations("Introduction");
+
   return (
-    <div className="flex flex-col md:flex-row items-center md:justify-evenly space-y-8 md:py-20 md:my-5">
+    <div
+      className="flex flex-col md:flex-row items-center md:justify-evenly space-y-8 md:py-20 md:my-5"
+      id="introduction"
+    >
       <div className="relative max-w-64 h-[450px] rounded-[175px_175px_175px_0px] overflow-hidden md:translate-y-20">
         <img
           src="/info-thu.jpg"
@@ -33,9 +39,9 @@ const Introduction = () => {
           initial="initial"
           whileInView="whileInView"
         >
-          <div className={`${prata.className} text-lg`}>Cô dâu</div>
+          <div className={`${prata.className} text-lg`}>{t("bride")}</div>
           <div className={`${carattere.className} text-2xl`}>
-            Nguyễn Ái Xuân Thư
+            {t("brideName")}
           </div>
         </motion.div>
       </div>
@@ -68,9 +74,9 @@ const Introduction = () => {
           initial="initial"
           whileInView="whileInView"
         >
-          <div className={`${prata.className} text-lg`}>Chú rể</div>
+          <div className={`${prata.className} text-lg`}>{t("groom")}</div>
           <div className={`${carattere.className} text-2xl`}>
-            Nguyễn Bùi Hoàng Minh
+            {t("groomName")}
           </div>
         </motion.div>
       </div>

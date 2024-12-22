@@ -1,0 +1,52 @@
+{
+  "Header": {
+    "home": "Trang chủ",
+    "intro": "Giới thiệu",
+    "detail": "Chi tiết",
+    "story": "Câu chuyện",
+    "rsvp": "Phản hồi thư mời",
+    "gift": "Quà tặng"
+  },
+  "LogoTicker": {
+    "logo": "Hoàng Minh & Xuân Thư"
+  },
+  "Introduction": {
+    "bride": "Cô dâu",
+    "brideName": "Nguyễn Ái Xuân Thư",
+    "groom": "Chú rể",
+    "groomName": "Nguyễn Bùi Hoàng Minh"
+  },
+  "TimeLocation": {
+    "time": "Thời gian",
+    "location": "Địa điểm",
+    "sunday": "Chủ Nhật",
+    "saturday": "Thứ Bảy",
+    "january": "Tháng 01",
+    "days": "Ngày",
+    "hours": "Giờ",
+    "minutes": "Phút",
+    "seconds": "Giây",
+    "lobbyNT": "Sảnh hồ bơi Champa Island",
+    "seeLocation": "Xem địa chỉ"
+  },
+  "RSVP": {
+    "rsvp": "Xác nhận tham dự",
+    "loading": "Đang tải..."
+  },
+  "Gift": {
+    "title": "No Cash? Đừng lo lắng...",
+    "desc": "Hãy gửi kèm cùng với tên của bạn nhé!"
+  },
+  "OurStory": {
+    "title": "Câu chuyện chúng tôi",
+    "subTitle1": "Ngày Gặp Nhau",
+    "subTitle2": "Minh ngỏ lời, Thư gật đầu & Chốt đơn luôn!",
+    "subTitle3": "Lễ Vu Quy tại Nha Trang",
+    "subTitle4": "Tiệc Thành Hôn tại Sài Gòn",
+    "paragraph1": "Dù có 100 lần makeup để sẵn sàng lướt qua crush thì điểm sáng cho lần gặp mặt định mệnh lại rơi vào lúc mình xác xơ và thiếu ngủ vì được DEADLINE dí. Thật tuyệt vời! Chính hôm ấy, ánh mắt ta chạm nhau, và đôi ta… say hi!",
+    "paragraph2": "Kịch bản diễn ra nằm ngoài mọi kịch bản! Ai mà ngờ lúc Minh đi chuẩn bị buổi cầu hôn lại lấy lý do ‘nhậu với đám bạn’. Rồi từ trưa đến chiều tối im lặng biền biệt. Ai cũng biết Thư làm gì rồi đấy — dỗi thôi! Dỗi thì dỗi, nhưng hẹn hò với chị em vẫn phải giữ đúng lời hứa. Đến nơi, anh chị mình diễn vẫn đỉnh lắm: gọi nước uống, chụp hình các kiểu. Theo lời rủ rê, cả nhóm kéo lên sân thượng vì nghe nói view đẹp. Và… tadaaa — một bữa tiệc mini siêu đầu tư hiện ra, có clip xúc động, có hoa và nhẫn. Cuối cùng, còn gì khác ngoài một câu Say YES đâu nhỉ!",
+    "paragraph3": "Nói ra ai cũng ủa, sao từ cầu hôn đến kết hôn dài dữ vậy? Nhưng tất cả đều diễn ra tự nhiên và đúng theo trình tự phải có. Phải khi thực sự nhận lời ngỏ chính thức của đàng trai, đàng gái ĐỒNG Ý, rồi cả hai cùng quyết định trước gia đình hai bên, cùng nhau sắp xếp chuẩn bị để VỀ CHUNG MỘT NHÀ Một hành trình dài, với đủ mọi trải nghiệm để thấu hiểu nhau. Và giờ đây, Minh & Thư sẵn sàng đón nhận lời chúc phúc của các bạn, anh chị, cô chú bác và ông bà thân yêu! 💖",
+    "paragraph4": "Các tình yêu tại Sài Gòn ơi, Minh & Thư rất mong được đón chào bạn tại bữa tiệc, cùng nhau chung vui và ghi lại thật nhiều kỷ niệm đáng nhớ trong ngày trọng đại của chúng mình!",
+    "end": "Hãy sẵn sàng tham gia những bữa tiệc đầy ý nghĩa cùng chúng mình nha!"
+  }
+}

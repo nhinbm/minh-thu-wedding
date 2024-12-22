@@ -4,6 +4,7 @@
 
 import { prata } from "@/styles/fonts";
 import CountdownTimer from "./CountdownTimer";
+import { useTranslations } from "next-intl";
 
 type InfoTimeLocation = {
   time: {
@@ -36,6 +37,7 @@ const InfoTimeLocation = ({
   location,
   imageLocation,
 }: InfoTimeLocation) => {
+  const t = useTranslations("TimeLocation");
   return (
     <div
       style={{ top: "5%" }}
@@ -49,7 +51,9 @@ const InfoTimeLocation = ({
           <div className="text-lg">
             <div>{date.weekday}</div>
             <div className="text-2xl font-bold">{date.day}</div>
-            <div>Tháng {date.month}</div>
+            <div>
+              {t("time")} {date.month}
+            </div>
           </div>
           <Divider />
           <div className="text-lg">{date.year}</div>
@@ -75,7 +79,7 @@ const InfoTimeLocation = ({
           href={location.googleMap}
           className="mt-8 text-beige underline font-bold"
         >
-          Xem địa chỉ
+          {t("seeLocation")}
         </a>
       </div>
       <div className="h-[500px] w-[100%]">

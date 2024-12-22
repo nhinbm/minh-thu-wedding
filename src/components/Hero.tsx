@@ -17,6 +17,7 @@ const Hero = () => {
     <div
       ref={ref}
       className="w-full h-screen overflow-hidden relative grid place-items-center"
+      id="home"
     >
       <motion.h1
         style={{ y: textY }}

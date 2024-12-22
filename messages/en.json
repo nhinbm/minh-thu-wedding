@@ -1,0 +1,52 @@
+{
+  "Header": {
+    "home": "Home",
+    "intro": "Introduction",
+    "detail": "Detail",
+    "story": "Our story",
+    "rsvp": "RSVP",
+    "gift": "Gift"
+  },
+  "LogoTicker": {
+    "logo": "Hoang Minh & Xuan Thu"
+  },
+  "Introduction": {
+    "bride": "Bride",
+    "brideName": "Thu Nguyen Ai Xuan",
+    "groom": "Groom",
+    "groomName": "Minh Nguyen Bui Hoang"
+  },
+  "TimeLocation": {
+    "time": "Time",
+    "location": "Location",
+    "sunday": "Sunday",
+    "saturday": "Saturday",
+    "january": "January",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "lobbyNT": "Champa Island Pool Hall",
+    "seeLocation": "See location"
+  },
+  "RSVP": {
+    "rsvp": "RSVP",
+    "loading": "Loading..."
+  },
+  "Gift": {
+    "title": "No Cash? Don't worry...",
+    "desc": "Please send us the message with your name!"
+  },
+  "OurStory": {
+    "title": "Our story",
+    "subTitle1": "How We Met",
+    "subTitle2": "Minh proposed, Thư said Yes",
+    "subTitle3": "Our Engagement Day",
+    "subTitle4": "Our Wedding Ceremony",
+    "paragraph1": "Even though I had put on makeup 100 times to get ready to pass by my crush, the highlight of the fateful meeting was when I was exhausted and sleep deprived because of DEADLINE. It was amazing! That very day, our eyes met, and we… said hi!",
+    "paragraph2": "The scenario unfolded beyond all scenarios! Who would have thought that when Minh went to prepare for the proposal, he would use the excuse of ‘drinking with friends’. Then from noon to evening, there was complete silence. Everyone knew what Thu was doing — sulking! Sulking is fine, but when dating a sister, you still have to keep your promise. When we arrived, our brother and sister acted very well: ordering drinks, taking pictures, etc. Following the invitation, the whole group went up to the rooftop because they heard the view was beautiful. And… tadaaa — a super-invested mini party appeared, with a touching clip, flowers and rings. In the end, what else could there be but a Say YES!",
+    "paragraph3": "Everyone wonders why the process from proposal to marriage is so long. But everything happened naturally and in the right order. When the groom's family officially accepted the proposal, the bride's family AGREEED, then both decided in front of both families, together arranged and prepared to HOME TOGETHER. A long journey, with all the experiences to understand each other. And now, Minh & Thu are ready to receive the blessings of you, your brothers and sisters, your uncles and aunts, and your beloved grandparents! 💖",
+    "paragraph4": "Dear Saigon lovers, Minh & Thu are looking forward to welcoming you to the party, having fun together and recording many memorable memories on our big day!",
+    "end": "Get ready to join meaningful parties with us!"
+  }
+}

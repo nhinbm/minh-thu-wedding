@@ -2,8 +2,11 @@
 
 import { prata } from "@/styles/fonts";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const LogoTicker = () => {
+  const t = useTranslations("LogoTicker");
+
   return (
     <div className="mx-auto w-full overflow-x-hidden py-10">
       <div className="mx-auto">
@@ -19,7 +22,7 @@ const LogoTicker = () => {
                 key={index}
                 className={`${prata.className} font-bold text-xl text-nowrap pr-20`}
               >
-                Hoàng Minh & Xuân Thư
+                {t("logo")}
               </div>
             ))}
           </motion.div>
@@ -35,7 +38,7 @@ const LogoTicker = () => {
                 key={index}
                 className={`${prata.className} font-bold text-xl text-nowrap pr-20`}
               >
-                Hoàng Minh & Xuân Thư
+                {t("logo")}
               </div>
             ))}
           </motion.div>

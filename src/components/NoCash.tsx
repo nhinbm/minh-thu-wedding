@@ -4,8 +4,11 @@
 
 import { prata } from "@/styles/fonts";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const NoCash = () => {
+  const t = useTranslations("Gift");
+
   const containerVariants = {
     initial: { opacity: 0, x: "-100%" },
     whileInView: {
@@ -16,13 +19,11 @@ const NoCash = () => {
   };
 
   return (
-    <div className="flex flex-col items-center my-20">
+    <div className="flex flex-col items-center my-20" id="gift">
       <div className={`${prata.className} font-bold text-3xl`}>
-        No Cash? Đừng lo lắng...
+        {t("title")}
       </div>
-      <div className={`${prata.className} mt-2`}>
-        Hãy gửi kèm cùng với tên của bạn nhé
-      </div>
+      <div className={`${prata.className} mt-2`}>{t("desc")}</div>
       <div className="mt-2 mb-10">
         <img src="flower.png" alt="flower" />
       </div>
