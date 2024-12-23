@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Minh-Thu Wedding Website 🌸  
 
-## Getting Started
+A beautiful, interactive wedding website designed to celebrate the love story of Minh & Thu. This project aims to provide an engaging platform for sharing event details, RSVP, and making memories unforgettable.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 **Project Goals**  
+1. **Celebrate Love**: Create a digital space to showcase the story of Minh & Thu in a heartfelt and interactive manner.  
+2. **Ease of Access**: Allow guests to easily RSVP and access important event information anytime, anywhere.  
+3. **Modern Design**: Combine aesthetics and functionality for a seamless user experience.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ **Technologies Used**  
+- **[Next.js](https://nextjs.org/)**: A React framework for server-side rendering and optimized performance.  
+- **[Framer Motion](https://www.framer.com/motion/)**: For smooth animations and dynamic transitions to enhance user experience.  
+- **[TailwindCSS](https://tailwindcss.com/)**: Utility-first CSS framework for rapid and responsive UI development.  
+- **[Google Forms](https://www.google.com/forms/about/)**: Integrated for RSVP functionality.  
+- **GitHub**: Version control and collaboration.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 **Features**  
+- **Responsive Design**: Looks great on all devices, from desktops to smartphones.  
+- **Interactive Animations**: Engaging motion effects to captivate users.  
+- **RSVP Form**: A seamless way for guests to confirm attendance.  
+- **Fixed Navigation Bar**: Easy access to different sections on all screen sizes.  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 **Getting Started**  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/minh-thu-wedding.git
+   cd minh-thu-wedding
+2. Install dependencies:
+   ```bash
+   npm install
+3. Run the development server:
+   ```bash
+   npm run dev
+4. Open your browser and navigate to:
+   ```bash
+   http://localhost:3000
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**🎉 Thank you for visiting Minh-Thu Wedding Website! We hope this project inspires joy and celebration.**
