@@ -13,6 +13,7 @@ interface LinkType {
 
 const Header = ({ locale }: { locale: string }) => {
   const [isClick, setIsClick] = useState(false);
+
   const t = useTranslations("Header");
   const pathname = usePathname();
   const router = useRouter();
@@ -24,7 +25,6 @@ const Header = ({ locale }: { locale: string }) => {
   const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newLocale = e.target.value as string;
     const path = pathname.split("/").slice(2).join("/");
-    console.log(path, newLocale);
     router.push(`/${newLocale}/${path}`);
   };
 

@@ -16,18 +16,20 @@ export function StoryImage({ imgSrc, idx, className }: Props) {
 
   return (
     <div className={className}>
-      <img
-        src={imgSrc}
-        alt=""
-        className="img img-responsive object-fit-cover"
-        width={350}
-        height={450}
-      />
-      <div className="story-shape-img-1">
-        <img src={shapes[shapeIdx][0]} alt="" width={206} height={243} />
+      <img src={imgSrc} alt="" className="w-[350px] h-[450px] object-cover" />
+      <div className="story-shape-img-1 absolute top-0 left-0 w-[206px] h-[243px]">
+        <img
+          src={shapes[shapeIdx][0]}
+          alt=""
+          className="w-full h-full object-contain"
+        />
       </div>
-      <div className="story-shape-img-2">
-        <img src={shapes[shapeIdx][1]} alt="" width={270} height={216} />
+      <div className="story-shape-img-2 absolute top-0 left-0 w-[270px] h-[216px]">
+        <img
+          src={shapes[shapeIdx][1]}
+          alt=""
+          className="w-full h-full object-contain"
+        />
       </div>
     </div>
   );
